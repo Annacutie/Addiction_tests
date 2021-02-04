@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto:wght@300&display=swap');
+body {
+  height: 100vh;
+  width: 70vw;
+}
+#contence li{
+  list-style: circle;
+}
+ol li{
+  width: inherit;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ol li ul li{
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+}
+.rule_breakers{
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.a{
+border: 4px green solid;
+background-color: #7aff7a;
+}
+.b{
+border: 4px yellow solid;
+background-color:#ffeb52;
+}
+.c{
+border: 4px red solid;
+background-color:#ff3a33;
+}
+
+.a, .b,.c{
+  width: 43%;
+}
+
+p{
+font-family: 'Roboto', sans-serif;
+}
+.logo{
+  width:10%;
+  border-radius: 100px;
+  background-image: linear-gradient(to right,  green , yellow, red);
+  text-decoration: none;
+  size:80%;
+  padding: 1.5%;
+  border: 4px trasperent solid;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 140%;
+}
